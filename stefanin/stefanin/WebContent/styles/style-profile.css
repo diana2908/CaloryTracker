@@ -1,0 +1,210 @@
+@CHARSET "ISO-8859-1";
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 100px;
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.foo{
+    color: #9d9d9d;
+    padding-top: 10px;
+}
+
+#logo-size{
+    font-size: x-large;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* Profile Container */
+.profile-box {
+  position: relative;
+  display: inline-block;
+  margin: 2em;
+  padding: 1em 0 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  background-color: rgba(60, 60, 60, 1);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2), 0 2px 1px rgba(255, 255, 255, 0.3) inset;
+  color: #fff;
+  vertical-align: middle;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  font-family: 'Raleway', sans-serif;
+  /* Profile Header */
+  /*Profile Details */
+  /* Profile contact button */
+}
+.profile-box .profile-header {
+  margin: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  /* Profil Image*/
+  /* Profile Name */
+}
+.profile-box .profile-header .profile-img {
+  display: inline-block;
+  margin: 0 1em;
+  padding: 0.6em;
+  border-radius: 50%;
+  background-color: rgba(40, 40, 40, 1);
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.2), 0 0 8px rgba(0, 0, 0, 0.5) inset;
+  /* Image container */
+}
+.profile-box .profile-header .profile-img span {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
+  vertical-align: middle;
+}
+.profile-box .profile-header .profile-name {
+  margin: 0.75em 0 0;
+  padding: 0 0.5em;
+  font-size: 1.6em;
+}
+.profile-box .profile-detail {
+  overflow: hidden;
+  padding: 0.8em;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  font-size: 0.8em;
+  /* Profil Details Values */
+}
+.profile-box .profile-detail:last-child {
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.1);
+}
+.profile-box .profile-detail span {
+  float: left;
+  padding: 0.6em 1em;
+}
+.profile-box .profile-detail .profile-value {
+  float: right;
+  margin-left: 1.5em;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.2), 0 0 8px rgba(0, 0, 0, 0.5) inset;
+  text-align: center;
+  font-weight: bold;
+}
+.profile-box .profile-btn-contact {
+  position: absolute;
+  top: 1em;
+  left: 100%;
+  width: 2em;
+  height: 2em;
+  background-color: rgba(255, 104, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 2;
+  -webkit-transition: background-color 0.4s;
+  -moz-transition: background-color 0.4s;
+  -ms-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+.profile-box .profile-btn-contact:hover {
+  background-color: rgba(255, 104, 0, 0.1);
+}
+
+/* Big Profile Box */
+.big {
+  font-size: 1.3em;
+}
+.big .profile-detail {
+  font-size: 0.7em;
+}
+
+/* Small Profile Box */
+.small {
+  font-size: 0.8em;
+}
+.small .profile-detail {
+  font-size: 0.9em;
+}
+
+/* Title + credits */
+.title,
+.credits {
+  padding: 1em;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Title */
+.title {
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(71, 59, 109, 0.1);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1), -1px -1px 1px rgba(255, 255, 255, 0.1), -1px 1px 1px rgba(255, 255, 255, 0.1), 1px -1px 1px rgba(255, 255, 255, 0.1);
+  -webkit-transition: text-shadow .8s, color .8s;
+  -moz-transition: text-shadow .8s, color .8s;
+  -ms-transition: text-shadow .8s, color .8s;
+  -o-transition: text-shadow .8s, color .8s;
+  transition: text-shadow .8s, color .8s;
+}
+.title:hover {
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.1), -1px -1px 10px rgba(255, 255, 255, 0.1), -1px 1px 10px rgba(255, 255, 255, 0.1), 1px -1px 10px rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+/* Credits */
+.credits {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  font-size: 0.7em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.credits a {
+  color: #3a7283;
+  text-decoration: none;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -ms-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s;
+}
+.credits a:hover {
+  color: #ae9aa1;
+}
+.profilepb{
+    text-align: center;
+    padding-bottom: 20px;
+}

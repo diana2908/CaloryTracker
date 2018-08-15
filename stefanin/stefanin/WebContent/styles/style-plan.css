@@ -1,0 +1,103 @@
+@CHARSET "ISO-8859-1";
+
+.footer {
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    background-color: #222;
+    padding: 10px 0;
+    z-index: 1;
+    text-align: center;
+}
+
+.foo{
+    color: #9d9d9d;
+    padding-top: 10px;
+}
+
+#logo-size{
+    font-size: x-large;
+}
+
+.body{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+ h1{
+     text-align: center;
+     margin: 0px;
+     padding-top: 10px;
+ }
+ h2{
+     padding-left: 17%;
+     font-size: 45px;
+ }
+
+ h3{
+     font-size: 30px;
+ }
+
+ .card{
+     background-color: rgba(224, 255, 255, 0.40);
+     border-right: 1px solid #222;
+     box-shadow: 10px 0 5px -2px #888;
+ }
+
+ .fixed-ele {
+     padding-top: 90px;
+     color: #222;
+     text-align: center;
+     padding-bottom: 10px;
+
+
+ }
+#calendar{
+    text-align: center;
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+.bg-consumat {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    float: right;
+    position relative;
+    box-shadow: 10px 10px 5px #222;
+    border-radius: 100px;
+    padding-top: 70px;
+    background-color: rgba(119, 136, 153, 0.80);
+}
+
+.bg-remain{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    text-align: center;
+    float: right;
+    position absolute;
+    box-shadow: 10px 10px 5px #222;
+    border-radius: 100px;
+    padding-top: 70px;
+    background-color: rgba(102,205,170, 0.60);
+
+
+}
+
+.displayCal{
+    position: sticky; top: 70px;
+    float: right !important;
+    padding-right: 8%;
+    font-size: x-large;
+    padding-top: 10px;
+    font-weight: bolder;
+    color:white;
+    text-transform: uppercase;
+}
+
+
+
+
